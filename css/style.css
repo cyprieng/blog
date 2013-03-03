@@ -1,0 +1,74 @@
+body{
+	height:100%;
+	width:100%;
+	background-color:#A5C4BB;
+}
+
+/* --------------
+ * TEXT
+ * -------------*/
+#name{
+	clear:both;
+	text-align:center;
+	font-size:2000%;
+	font-family: Arial;
+	color: #d3d3d3;
+
+	width: 800px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -400px;
+}
+
+/* --------------
+ * SOCIAL
+ * -------------*/
+#social{
+	width:330px;
+	margin:auto;
+	text-align:center;
+
+}
+#social a{
+	display:block;
+	float:left;
+
+	margin-right:10px;
+
+	height:100px;
+	width:100px;
+	background:black;
+
+	font-size:60px;
+	line-height:100px;
+
+	-webkit-transition: background 1s, color 1s;
+	-moz-transition: background 1s, color 1s;
+	transition: background 1s, color 1s;
+	color: #d3d3d3;
+}
+#social a:hover, 
+#social a:focus {
+	-webkit-transition: background 1s, color 1s;
+	-moz-transition: background 1s, color 1s;
+	transition: background 1s, color 1s;
+	background: transparent;
+	color: #000;
+}
+
+@font-face {
+	font-family: 'zocial';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/zocial-regular-webfont.eot');
+	src: url('../font/zocial-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../font/zocial-regular-webfont.woff') format('woff'),
+		url('../font/zocial-regular-webfont.ttf') format('truetype'),
+		url('../font/zocial-regular-webfont.svg#ZocialRegular') format('svg');
+}
+.zocial{font-family: zocial;text-decoration:none;}
+.zocial.github:before {content: "\E046";}
+.zocial.lastfm:before {content: "\E04B";}
+.zocial.twitter:before {content: "\E033";}
