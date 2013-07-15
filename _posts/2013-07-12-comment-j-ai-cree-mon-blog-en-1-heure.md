@@ -8,7 +8,7 @@ categories: jekyll blog
 Aprés des années d'hésitation pour lancer mon blog, je me lance enfin. 
 
 Le premier problème qui s'est posé lors de la réalisation est celui de l'hébergement et du nom de domaine.
-Trois choix s'offrait à moi :
+Trois choix s'offraient à moi :
 
 * Hébergeur gratuit : manque de fiabilité, nom de domaine à ralonge...
 * Hébergeur payant : tout est bon sauf que... c'est payant.
@@ -29,7 +29,7 @@ Les avantages de Jekyll sont nombreux :
 En revanche Jekyll a des inconvénients :
 
 * Le fait que le site soit statique entraîne l'absence de nombreuses fonctionnalités : commentaires, formulaire de contact... Heureusement il existe des solutions pour résoudre ce problème (ex : Disqus pour les commentaires, par exemple).
-* À chaque modification de site, Jekyll va le reconstruire entièrement. Ca ne pose pas trop de problème pour un petit site, mais j'imagine que si vous avez plusieurs milliers d'articles ça doit prendre un paquet de temps.
+* À chaque modification du site, Jekyll va le reconstruire entièrement. Ça ne pose pas trop de problème pour un petit site, mais j'imagine que si vous avez plusieurs milliers d'articles ça doit prendre un paquet de temps.
 
 Maintenant que le choix de l'hébergeur et du gestionnaire de blog est fait, il faut mettre tout ça en place.
 
@@ -39,7 +39,7 @@ Installation de jekyll
 La première étape est d'installer ruby sur votre ordinateur :
 
 * [Ruby Installer](http://rubyinstaller.org/) pour Windows
-* Votre gestionnaire de paquet sous GNU/Linux
+* Votre gestionnaire de paquets sous GNU/Linux
 
 Une fois Ruby installé lancez `gem install jekyll`, puis rendez-vous dans le dossier où vous voulez installer votre blog.
 Lancez maintenant `jekyll new my-awesome-site` puis `cd my-awesome-site`, et enfin `jekyll serve`.
@@ -49,16 +49,16 @@ Rendez-vous sur [localhost:4000](http://localhost:4000), et vous devriez voir le
 Personnalisation de jekyll
 --------------------------
 
-Maintenant vous n'avez plus qu'à éditer les fichiers HTML et CSS. À chaque modification vous devez lancez `jekyll build` et relancer le serveur.
+Maintenant vous n'avez plus qu'à éditer les fichiers HTML et CSS (index.html et les dossiers "css" et "_layouts"). À chaque modification vous devez lancez `jekyll build` et relancer le serveur.
 
-Ou, plus simple. Lancer `jekyll build --watch` et `jekyll serve --watch`, chaque modification devrait alors être répercutée immediatement.
+Ou, plus simple. Lancer `jekyll build --watch` et `jekyll serve --watch`, chaque modification devrait alors être répercutée immédiatement.
 
 Pour ce qui est de la modification visuelle, je ne me suis pas trop foulé pour l'instant. J'ai repris le style par défaut de Jekyll en modifiant 2-3 éléments.
 
 ###Ajout des commentaires
 
-Si vous souhaitez ajouter des commentaires, je vous conseille d'utilisez [Disqus](http://disqus.com/).
-Pour cela rendez-vous sur le site, créez un comte, ajoutez un nouveau site, récupérez le code et copiez le dans le code de votre layout des posts.
+Si vous souhaitez ajouter des commentaires, je vous conseille d'utiliser [Disqus](http://disqus.com/).
+Pour cela rendez-vous sur le site, créez un compte, ajoutez un nouveau site, récupérez le code, et copiez le dans le code de votre layout des posts.
 
 ###Ajout d'un flux RSS
 
