@@ -3,24 +3,10 @@
 /* Common
 /*
 /*****************************************************************************/
-
-/* Global Reset */
-* {
-  margin: 0;
-  padding: 0;
+h1, h2, h3, h4, h5, h6{
+  font-size: 100%; 
+  font-weight: bold;
 }
-
-body {
-  width: 50%;
-  margin-left:10%;
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
 h2 { margin-left: 10px; }
 h3 { margin-left: 20px; }
@@ -103,33 +89,6 @@ ul.posts span {
 
 .site .meta {
   color: #aaa;
-}
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #06A2AB;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
 }
 
 /*****************************************************************************/

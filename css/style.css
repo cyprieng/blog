@@ -1,41 +1,29 @@
 ﻿body{
 	height:100%;
 	width:100%;
-	background-color:#A5C4BB;
-}
+	background-image:url("../assets/img/background.png");
+	background-attachment:fixed;
 
-/* --------------
- * TEXT
- * -------------*/
-#name{
-	clear:both;
-	text-align:center;
-	font-size:2000%;
-	font-family: Arial;
-	color: #d3d3d3;
-
-	width: 800px;
-	height: 200px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -150px 0 0 -400px;
+	font:13.34px Helvetica, Arial, sans-serif;
+	font-size:small;
+	text-align:center; 
 }
 
 /* --------------
  * SOCIAL
  * -------------*/
 #social{
-	width:440px;
-	margin:auto;
-	text-align:center;
+	position:fixed;
+	top:50%;
+	left:0;
+	margin-top:-200px;
 
+	text-align:center;
 }
 #social a{
 	display:block;
-	float:left;
 
-	margin-right:10px;
+	margin-bottom:5px;
 
 	height:100px;
 	width:100px;
@@ -56,6 +44,7 @@
 	transition: background 1s, color 1s;
 	background: transparent;
 	color: #000;
+	text-decoration:none;
 }
 
 @font-face {
@@ -76,4 +65,12 @@
 .zocial.github:before {content: "\00E8";}
 .zocial.lastfm:before {content: "l";}
 .zocial.twitter:before {content: "T";}
-.zocial.blog:before {content: "B";}
+.zocial.rss:before {content: "R";}
+
+/* --------------
+ * CONTENT
+ * -------------*/
+#content{
+	background-color:#fff;
+	padding:10px;
+}
