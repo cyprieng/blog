@@ -76,8 +76,14 @@ body{
  * CONTENT
  * -------------*/
 .site{width:60%;}
-#content{
-	width:100%;
+#content{width:100%;}
+
+.posts li{
+	background-color:#fff;
+	padding:10px;
+	margin:10px;
+}
+.post_content{
 	background-color:#fff;
 	padding:10px;
 }
