@@ -17,9 +17,6 @@ h6 { margin-left: 50px; }
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #535454; text-decoration: none; font-weight: bold; }
-a:hover   { color: #989899; text-decoration: underline; }
-
 table {
   font-size: inherit;
   font: 100%;
@@ -39,24 +36,11 @@ ul.posts li {
   line-height: 1.75em;
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-}
-
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
-
-.site {
-  font-size: 115%;
-  text-align: justify;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
 
 .site .header a {
   font-weight: bold;
