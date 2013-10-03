@@ -82,13 +82,19 @@ a:hover{
  * SITE
  * -------------*/
 .blog_title{text-align: center;}
+
 .site{
-	width:60%;
+	max-width: 736px;
+
 	font-size: 115%;
+	line-height: 1.5em;
+	
 	text-align: justify;
 	margin: 3em auto 2em;
-	line-height: 1.5em;
+	padding-left: 20px;
+	padding-right: 20px;
 }
+
 #content{width:100%;}
 
 .title{
