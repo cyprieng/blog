@@ -7,7 +7,7 @@ body{
 	line-height: 1.5em;
 	color: #555;
 
-	text-align:center; 
+	text-align:center;
 }
 ::selection {
 	background: #d34836;
@@ -45,7 +45,7 @@ a:hover{
 #social a{
 	padding-right: 10px;
 
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bold;
 
 	-webkit-transition: background 0.4s, color 0.4s;
@@ -53,7 +53,7 @@ a:hover{
 	transition: background 0.4s, color 0.4s;
 	color: #555;
 }
-#social a:hover, 
+#social a:hover,
 #social a:focus {
 	-webkit-transition: background 0.4s, color 0.4s;
 	-moz-transition: background 0.4s, color 0.4s;
@@ -92,7 +92,7 @@ a:hover{
 
 	font-size: 115%;
 	line-height: 1.5em;
-	
+
 	text-align: justify;
 	margin: 3em auto 2em;
 	padding-left: 20px;

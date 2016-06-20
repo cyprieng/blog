@@ -1,18 +1,18 @@
 ---
-layout: nil
+layout:
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
- <title>Cyprien G</title>
+
+ <title>Cyprien Guillemot</title>
  <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.url }}{{ site.baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>{{ site.url }}{{ site.baseurl }}</id>
  <author>
-   <name>Cyprien G</name>
+   <name>Cyprien Guillemot</name>
  </author>
- 
+
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
@@ -22,5 +22,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
