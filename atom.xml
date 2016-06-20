@@ -5,10 +5,10 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Cyprien G</title>
- <link href="http://cyprieng.github.io/atom.xml" rel="self"/>
- <link href="http://cyprieng.github.io/"/>
+ <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}{{ site.baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://cyprieng.github.io</id>
+ <id>{{ site.url }}{{ site.baseurl }}</id>
  <author>
    <name>Cyprien G</name>
  </author>
@@ -16,7 +16,7 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://cyprieng.github.io{{ post.url }}"/>
+   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>http://cyprieng.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
